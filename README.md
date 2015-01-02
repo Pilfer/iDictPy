@@ -9,7 +9,11 @@ but then i forgot i'm a little bit drunk and then this happened.
 
 prerequisites are "requests" and "threadpool". use pip or easy_install.
 
-http://reddit.com/r/netsec
-http://twitter.com/CodesStuff
+These guys are nice sometimes unless they think you're wrong: http://reddit.com/r/netsec  
 
+I'm really lonely: http://twitter.com/CodesStuff
+
+#Obligatory warning
+
+I didn't test this really, and don't accept any responsibility for how you use it. Be nice. Something something educational purposes only.
 
