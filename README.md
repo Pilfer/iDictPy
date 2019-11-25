@@ -11,9 +11,9 @@ prerequisites are "requests" and "threadpool". use pip or easy_install.
 
 These guys are nice sometimes unless they think you're wrong: http://reddit.com/r/netsec  
 
-I'm really lonely: http://twitter.com/CodesStuff
+I'm really lonely: http://twitter.com/BinaryGoblin
 
-#Obligatory warning
+# Obligatory warning
 
 I didn't test this really, and don't accept any responsibility for how you use it. Be nice. Something something educational purposes only.
 
